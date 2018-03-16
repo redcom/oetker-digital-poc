@@ -1,5 +1,6 @@
 {
   "name": "oetker",
+  "homepage": "https://redcom.github.io/oetker-digital-poc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
