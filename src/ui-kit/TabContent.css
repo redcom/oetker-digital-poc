@@ -1,0 +1,12 @@
+.tabContent {
+  color: black;
+  overflow: scroll;
+  display: flex;
+  flex: 1;
+  background-color: white;
+  border: 1px solid black;
+  height: calc(100% - 190px);
+  margin-top: -1px;
+  background: linear-gradient(white 0%, white 84%, #ccc 100%);
+
+}

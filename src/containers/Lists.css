@@ -1,0 +1,65 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 10%;
+  padding: 5vw 0;
+  border-bottom: 1px solid #dcdfe3;
+}
+.listItem:last-of-type {
+  border-bottom: none;
+}
+.listItem > span {
+  font-size: 4vw;
+}
+.listItem > span + span {
+  font-size: 3vw;
+  color: #dcdfe3;
+  padding-left: 1em;
+}
+.listItem > span > img {
+  width: 100%;
+}
+
+/* Adjust list size based on different breqkpoints */
+@media all and (max-width: 478px) {
+  .listItem {
+    padding: 6% 0;
+    flex-direction: column;
+  }
+  .listItem > span + span {
+    padding-top: 1em;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .listItem {
+    padding: 4vw 0;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .listItem {
+    padding: 2vw 0;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .listItem {
+    padding: 2vw 0;
+  }
+  .listItem > span {
+    font-size: 2.9vw;
+  }
+  .listItem > span + span {
+    font-size: 2.5vw;
+  }
+}
+
